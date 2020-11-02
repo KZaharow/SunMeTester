@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">NtsSunMeTester</string>
+    <string name="btn_Ok">Ok</string>
+    <string name="rb_0_text">Вывод на принтер</string>
+    <string name="rb_1_text">Вывод на дисплей</string>
+    <string name="rb_2_text">Печать QR кода</string>
+    <string name="rb_3_text">Обрезка бумаги</string>
+    <string name="rb_4_text">Открыть ДЯ</string>
+    <string name="rb_5_text">Информация принтера</string>
+    <string name="rb_6_text">Пример отчета</string>
+    <string name="txtLbl_inputText">Введите текст:</string>
+    <string name="txtLbl_inputText_default_text">абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</string>
+    <string name="defaultFontSize">26sp</string>
+
+    <!--constants-->
+    <string name="url">https://softteco.by/</string>
+    <string name="alignLeft">0</string>
+    <string name="alignCenter">1</string>
+    <string name="msg">1</string>
+    <string name="qrCodeSize">6</string>
+    <string name="qrCodeCorrectionLevel">4</string>
+
+    <!--    Printer-->
+    <string name="printerNotReady">Принтер не готов!</string>
+    <string name="printerInfo">Данные принтера            :</string>
+    <string name="printerFirmware">Номер ПО                   :</string>
+    <string name="printerNumber">Зав.номер                  :</string>
+    <string name="printerModel">Модель-(лента)             :</string>
+    <string name="printerFwVersion">Версия ПО                  :</string>
+    <string name="printerSwVersionr">Сервис версия ПО           :</string>
+    <string name="printerCutter">Наработка обрезчика, отрез.:</string>
+    <string name="printerStatusCd">Статус денежного ящика     :</string>
+    <string name="printerPaper">Наличие бумаги             :</string>
+    <string name="printerStatus">Статус принтера            :</string>
+
+    <!--callback-->
+    <string name="callBackOK">Операция успешна</string>
+    <string name="callBackError">Ошибка</string>
+    <string name="callBackResponseDescription">Ответ (описание):</string>
+    <string name="callBackErrorCode">Ошибка, код: </string>
+    <string name="callBackErrorDescription">, описание ошибки: </string>
+    <string name="callBackResultCode">Результат, код= </string>
+    <string name="callBackResultDescription">, описание: </string>
+
+    <!--lcd-->
+     <!--LCD_FONT_SIZE - 3 strs * 20 chars = {1, 1, 1}
+     LCD_FONT_SIZE - 2 str * 12 chars = {2, 2}
+     LCD_FONT_SIZE - 1 str * 8 chars = {3}-->
+    <string name="lcdFont">1</string>
+    <string name="lcdMaxInputStringLength">60</string>
+    <string name="lcdMaxLineLength">20</string>
+    <string name="lcdOk">Команда дисплея выполнена</string>
+    <string name="lcdError">Ошибка дисплея</string>
+    <string name="lcdInit">1</string>
+    <string name="lcdClean">2</string>
+    <string name="lcdReady">4</string>
+
+    <!--report-->
+    <string name="report">"                                                ""КСА: 0000000000001                              ""УНП: 400213102                                  ""РН КО: 110060688                                ""КАССА №: #5                                     ""15-10-2020                             НД0000786""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""                С М Е Н Н Ы Й                   ""О Т Ч Е Т   С   Г А Ш Е Н И Е М   Z - О Т Ч Е Т ""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""Смена открыта:                  15-10-2020 22:53""Смена закрыта:                  15-10-2020 22:56""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""15-10-2020 22:56                                ""Номер отчета                           0104/0104""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""НДС  A                                    20.00%""НДС  B                                    20.00%""НДС  C                                    20.00%""НДС  D                                    20.00%""НДС  E                                    20.00%""НДС  F                                    20.00%""НДС  G                                    20.00%""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""                    Наличные                    ""Остаток с пред. смены:                   2574.37""Продажа:                           0        0.00""Служ. внесения:                    2        2.10""Служ. выдачи:                      1        1.05""Итого в ДЯ:                              2575.42""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""Продажа:                                    0.00""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""Скидки по чеку:                    0        0.00""Надбавки по чеку:                  0        0.00""Скидки по возвратам:               0        0.00""Надб. по возвратам:                0        0.00""Отмена:                            0        0.00""Коррекция:                         0        0.00""Возврат:                           0        0.00""Аннуляция:                         0        0.00""Открытие ДЯ:                                   0""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""Итог НДС:                                   0.00""Итого:                                  BYN 0.00""ОБОРОТ:                              BYN 4920.90""Кол-во платеж. док.:                           0""Номер первого платеж. док.:                    -""Номер послед. платеж. док.:                    -""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""1.LELIK I BOLIK                 15-10-2020 22:56""~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""            CFAC81424302AD1B0000AD01            "" CRC: 2020101500000078602000000104              "</string>
+    <string name="lcdLines">3</string>
+
+</resources>

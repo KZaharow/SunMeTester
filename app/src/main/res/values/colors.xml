@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BBBBC1</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#F58F78</color>
+    <color name="colorMainPanel">#6A7276</color>
+    <color name="inputText">#FFFFFF</color>
+    <color name="colorLogBackGround">#BBBBC1</color>
+</resources>
